@@ -1,6 +1,6 @@
-import React, { useState, useEffect, type FC } from 'react';
+import { useState, useEffect, type FC } from 'react';
 import {
-  AppBar, Toolbar, Typography, Container, Grid, Card, CardContent, Button, Box, CircularProgress, LinearProgress
+  AppBar, Typography, Container, Grid, Card, CardContent, Button, Box, CircularProgress, LinearProgress
 } from "@mui/material";
 import { supabase } from '../supabaseClient';
 

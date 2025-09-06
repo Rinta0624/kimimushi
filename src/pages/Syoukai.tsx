@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   AppBar,
   Toolbar,
@@ -69,7 +68,7 @@ const Syoukai = () => {
         </Typography>
 
         <Grid container spacing={4} justifyContent="center">
-          {charactersData.map((character, index) => (
+          {charactersData.map((character) => (
             <Grid item xs={12} sm={6} md={4} key={character.id}>
               <Card sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flexGrow: 1 }}>

@@ -1,4 +1,4 @@
-import React, { type FC } from 'react';
+import { type FC } from 'react';
 import {
   AppBar, Toolbar, Typography, Container, Box, Accordion, AccordionSummary,
   AccordionDetails, Paper, Divider, Chip, Card, CardContent, CardMedia, Stack,
@@ -195,7 +195,7 @@ const Kouryaku: FC = () => {
             </Stack>
           </AccordionSummary>
           <AccordionDetails>
-            {enemiesData.map((enemy, index) => (
+            {enemiesData.map((enemy) => (
               <Card key={enemy.name} sx={{ mb: 3 }}>
                 <CardMedia
                   component="img"

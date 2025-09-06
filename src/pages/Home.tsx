@@ -1,6 +1,5 @@
-import React from 'react';
 import {
-  AppBar, Toolbar, Typography, Container, Button, Box, Grid, Card, CardActionArea, CardContent
+  AppBar, Toolbar, Typography, Container, Box, Grid, Card, CardActionArea, CardContent
 } from "@mui/material";
 import { Link } from 'react-router-dom';
 

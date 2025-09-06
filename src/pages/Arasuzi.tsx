@@ -1,6 +1,5 @@
-import React from 'react';
 import {
-  AppBar, Toolbar, Typography, Container, Paper,Button
+  AppBar, Toolbar, Typography, Container, Button
 } from "@mui/material";
 import {
   Timeline,
