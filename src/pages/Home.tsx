@@ -34,7 +34,7 @@ const Home = () => {
       <Box
         sx={{
           height: { xs: '40vh', md: '50vh' },
-          backgroundImage: 'url(https://source.unsplash.com/random/1600x900?dark,fantasy)', // 背景画像（仮）
+          backgroundImage: 'https://pwbueukmjrrfpiojlgyg.supabase.co/storage/v1/object/public/character-images/marie.png', // 背景画像（仮）
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'flex',
